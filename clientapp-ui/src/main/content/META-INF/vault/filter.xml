@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/clientapp" />
+    <filter root="/etc/designs/clientapp">
+        <exclude pattern="/etc/designs/clientapp/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/etc/packages/bedrock/bedrock-ui-${bedrock.version}.zip"/>
+    <filter root="/etc/packages/multicompositeaddon/multicomposite-addon-${multicompositeaddon.version}.zip"/>
+</workspaceFilter>
