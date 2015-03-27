@@ -7,7 +7,7 @@ import java.util.ArrayList;
 /**
  * Created by 35243 on 3/27/15.
  */
-public interface ClientCashService {
+public interface ClientCacheService {
 
     ArrayList<Client> getAllClients();
 }
