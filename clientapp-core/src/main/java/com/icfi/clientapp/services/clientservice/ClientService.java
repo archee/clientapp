@@ -1,6 +1,7 @@
 package com.icfi.clientapp.services.clientservice;
 
 import com.icfi.clientapp.domain.client.Client;
+import com.icfi.clientapp.domain.client.Clients;
 
 import java.util.ArrayList;
 
@@ -9,5 +10,5 @@ import java.util.ArrayList;
  */
 public interface ClientService {
 
-    ArrayList<Client> getAllClients();
+    Clients getAllClients();
 }
