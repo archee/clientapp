@@ -4,6 +4,7 @@ import com.google.common.cache.Cache;
 import com.google.common.cache.CacheBuilder;
 import com.icfi.clientapp.domain.client.Client;
 import com.icfi.clientapp.domain.client.Clients;
+import com.icfi.clientapp.webservice.exceptions.ClientsServiceException;
 import org.apache.felix.scr.annotations.*;
 
 import org.apache.sling.commons.osgi.PropertiesUtil;
@@ -72,14 +73,14 @@ public class ClientCacheServiceImpl implements ClientCacheService {
     }
 
     @Override
-    public Clients getAllClients(){
+    public Clients getAllClients() throws ClientsServiceException {
 
         Clients clients= null;
 
     try{
         clients = clientListCache.get(CLIENTS,new Callable<Clients>(){
             @Override
-            public Clients call(){
+            public Clients call() throws ClientsServiceException {
                 return clientTransformationService.getAllClients();
             }
         });

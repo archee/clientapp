@@ -5,6 +5,7 @@ import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.type.TypeFactory;
 import com.icfi.clientapp.domain.client.Clients;
+import com.icfi.clientapp.webservice.exceptions.ClientsServiceException;
 import org.apache.commons.lang.StringUtils;
 import org.apache.felix.scr.annotations.Component;
 import org.apache.felix.scr.annotations.Reference;
@@ -22,7 +23,7 @@ public class ClientTransformationServiceImpl implements ClientTransformationServ
     ClientConnectionService clientConnectionService;
 
     @Override
-    public Clients getAllClients() {
+    public Clients getAllClients() throws ClientsServiceException {
         String response = clientConnectionService.getAllClients();
 
         return mapResponseToObjects(response, Clients.class);

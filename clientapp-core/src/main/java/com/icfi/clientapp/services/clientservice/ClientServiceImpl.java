@@ -2,6 +2,7 @@ package com.icfi.clientapp.services.clientservice;
 
 import com.icfi.clientapp.domain.client.Client;
 import com.icfi.clientapp.domain.client.Clients;
+import com.icfi.clientapp.webservice.exceptions.ClientsServiceException;
 import org.apache.felix.scr.annotations.*;
 
 import java.util.ArrayList;
@@ -19,7 +20,7 @@ public class ClientServiceImpl implements ClientService{
     ClientCacheService clientCacheServiceImpl;
 
     @Override
-    public Clients getAllClients(){
+    public Clients getAllClients() throws ClientsServiceException {
 
         return clientCacheServiceImpl.getAllClients();
     }
