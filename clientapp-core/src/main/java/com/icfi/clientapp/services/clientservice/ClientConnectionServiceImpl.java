@@ -6,6 +6,7 @@ import org.apache.commons.httpclient.methods.GetMethod;
 import org.apache.felix.scr.annotations.*;
 import org.apache.sling.commons.osgi.PropertiesUtil;
 
+import java.io.IOException;
 import java.util.Map;
 
 @Component(name = "Client Connection Service", label = "Service to connect to the client web service")
@@ -46,6 +47,18 @@ public class ClientConnectionServiceImpl implements ClientConnectionService {
         //TODO: execute GET request and convert response stream into a String and return it
         GetMethod getMethod = new GetMethod(host + getClientsEndpoint);
 
-        return null;
+        String response = "";
+
+        try {
+            httpClient.executeMethod(getMethod);
+            response = getMethod.getResponseBodyAsString();
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }finally {
+            getMethod.releaseConnection();
+        }
+
+        return response;
     }
 }

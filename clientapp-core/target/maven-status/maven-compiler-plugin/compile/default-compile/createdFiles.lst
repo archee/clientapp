@@ -1,0 +1,13 @@
+com/icfi/clientapp/services/clientservice/ClientConnectionServiceImpl.class
+com/icfi/clientapp/domain/client/Client.class
+com/icfi/clientapp/services/clientservice/ClientCacheServiceImpl.class
+com/icfi/clientapp/services/clientservice/ClientConnectionService.class
+com/icfi/clientapp/services/clientservice/ClientCacheService.class
+com/icfi/clientapp/services/clientservice/ClientTransformationServiceImpl.class
+com/icfi/clientapp/services/clientservice/ClientService.class
+com/icfi/clientapp/services/clientservice/ClientTransformationService.class
+com/icfi/clientapp/domain/client/Clients.class
+com/icfi/clientapp/servlets/clientservice/ClientServiceServlet.class
+com/icfi/clientapp/components/content/TestComponent.class
+com/icfi/clientapp/services/clientservice/ClientCacheServiceImpl$1.class
+com/icfi/clientapp/services/clientservice/ClientServiceImpl.class

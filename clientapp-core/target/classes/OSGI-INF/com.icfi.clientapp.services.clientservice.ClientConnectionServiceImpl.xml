@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0">
+    <scr:component name="Client Connection Service" activate="activate" modified="activate">
+        <implementation class="com.icfi.clientapp.services.clientservice.ClientConnectionServiceImpl"/>
+        <service servicefactory="false">
+            <provide interface="com.icfi.clientapp.services.clientservice.ClientConnectionService"/>
+        </service>
+        <property name="host"/>
+        <property name="clientsEndpoint"/>
+        <property name="timeout" type="Integer" value="5000"/>
+        <property name="service.pid" value="Client Connection Service"/>
+    </scr:component>
+</components>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.0.0" localization="OSGI-INF/metatype/com.icfi.clientapp.services.clientservice.ClientCacheServiceImpl">
+    <OCD id="com.icfi.clientapp.services.clientservice.ClientCacheServiceImpl" name="%com.icfi.clientapp.services.clientservice.ClientCacheServiceImpl.name" description="%com.icfi.clientapp.services.clientservice.ClientCacheServiceImpl.description">
+        <AD id="cacheExpirationTime" type="Integer" default="60" name="%com.icfi.clientapp.services.clientservice.ClientCacheServiceImpl.cacheExpirationTime.name" description="%com.icfi.clientapp.services.clientservice.ClientCacheServiceImpl.cacheExpirationTime.description"/>
+        <AD id="cacheConcurrencyLevel" type="Integer" default="150" name="%com.icfi.clientapp.services.clientservice.ClientCacheServiceImpl.cacheConcurrencyLevel.name" description="%com.icfi.clientapp.services.clientservice.ClientCacheServiceImpl.cacheConcurrencyLevel.description"/>
+        <AD id="cacheInitialCapacity" type="Integer" default="100" name="%com.icfi.clientapp.services.clientservice.ClientCacheServiceImpl.cacheInitialCapacity.name" description="%com.icfi.clientapp.services.clientservice.ClientCacheServiceImpl.cacheInitialCapacity.description"/>
+        <AD id="cacheMaxSize" type="Integer" default="1000" name="%com.icfi.clientapp.services.clientservice.ClientCacheServiceImpl.cacheMaxSize.name" description="%com.icfi.clientapp.services.clientservice.ClientCacheServiceImpl.cacheMaxSize.description"/>
+    </OCD>
+    <Designate pid="com.icfi.clientapp.services.clientservice.ClientCacheServiceImpl">
+        <Object ocdref="com.icfi.clientapp.services.clientservice.ClientCacheServiceImpl"/>
+    </Designate>
+</metatype:MetaData>

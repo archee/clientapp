@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0">
+    <scr:component name="com.icfi.clientapp.services.clientservice.ClientCacheServiceImpl" activate="activate" modified="activate">
+        <implementation class="com.icfi.clientapp.services.clientservice.ClientCacheServiceImpl"/>
+        <service servicefactory="false">
+            <provide interface="com.icfi.clientapp.services.clientservice.ClientCacheService"/>
+        </service>
+        <property name="cacheExpirationTime" type="Integer" value="60"/>
+        <property name="cacheConcurrencyLevel" type="Integer" value="150"/>
+        <property name="cacheInitialCapacity" type="Integer" value="100"/>
+        <property name="cacheMaxSize" type="Integer" value="1000"/>
+        <property name="service.pid" value="com.icfi.clientapp.services.clientservice.ClientCacheServiceImpl"/>
+        <reference name="clientTransformationService" interface="com.icfi.clientapp.services.clientservice.ClientTransformationService" cardinality="1..1" policy="static" bind="bindClientTransformationService" unbind="unbindClientTransformationService"/>
+    </scr:component>
+</components>

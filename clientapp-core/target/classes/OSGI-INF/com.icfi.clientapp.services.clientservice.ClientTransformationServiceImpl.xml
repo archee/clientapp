@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.0.0">
+    <scr:component name="com.icfi.clientapp.services.clientservice.ClientTransformationServiceImpl">
+        <implementation class="com.icfi.clientapp.services.clientservice.ClientTransformationServiceImpl"/>
+        <service servicefactory="false">
+            <provide interface="com.icfi.clientapp.services.clientservice.ClientTransformationService"/>
+        </service>
+        <property name="service.pid" value="com.icfi.clientapp.services.clientservice.ClientTransformationServiceImpl"/>
+        <reference name="clientConnectionService" interface="com.icfi.clientapp.services.clientservice.ClientConnectionService" cardinality="1..1" policy="static" bind="bindClientConnectionService" unbind="unbindClientConnectionService"/>
+    </scr:component>
+</components>

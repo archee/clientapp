@@ -21,8 +21,7 @@ public class Clients {
     }
 
     @JsonCreator
-    public static Clients create(@JsonProperty("clients") final ArrayList<Client> clientList)
-                               {
+    public static Clients create(@JsonProperty("clients") final ArrayList<Client> clientList) {
 
         return new Clients(clientList);
 

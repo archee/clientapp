@@ -41,6 +41,7 @@ public class Client {
     public String getAemVersion() {
         return aemVersion;
     }
+
     @JsonCreator
     public static Client create(@JsonProperty("id") final int id,
                                 @JsonProperty("name") final String name,
