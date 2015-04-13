@@ -11,4 +11,5 @@ com/icfi/clientapp/webservice/exceptions/ClientsServiceException.class
 com/icfi/clientapp/servlets/clientservice/ClientServiceServlet.class
 com/icfi/clientapp/services/clientservice/ClientCacheServiceImpl$1.class
 com/icfi/clientapp/components/content/TestComponent.class
+com/icfi/clientapp/components/content/clientsearchcomponent/ClientSearchComponent.class
 com/icfi/clientapp/services/clientservice/ClientServiceImpl.class

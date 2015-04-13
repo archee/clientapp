@@ -72,6 +72,7 @@ public class ClientCacheServiceImpl implements ClientCacheService {
                 .build();
     }
 
+
     @Override
     public Clients getAllClients() throws ClientsServiceException {
 
@@ -91,6 +92,7 @@ public class ClientCacheServiceImpl implements ClientCacheService {
 
         return clients;
     }
+
 
 
 }

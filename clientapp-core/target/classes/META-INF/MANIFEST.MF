@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1428347738966
-Build-Jdk: 1.7.0_51
-Built-By: ericvangeem
+Bnd-LastModified: 1428951323798
+Build-Jdk: 1.7.0_75
+Built-By: 35243
 Bundle-Description: Bedrock provides a sturdy foundation for bootstrappi
  ng and simplifying AEM (Adobe CQ) projects.
 Bundle-DocURL: http://www.citytechinc.com
@@ -14,11 +14,13 @@ Bundle-Version: 1.0.0.SNAPSHOT
 Created-By: Apache Maven Bundle Plugin
 DynamicImport-Package: *
 Export-Package: com.icfi.clientapp.components.content;version="1.0.0",co
- m.icfi.clientapp.domain.client;version="1.0.0",com.icfi.clientapp.servi
- ces.clientservice;uses:="com.icfi.clientapp.domain.client,com.icfi.clie
- ntapp.webservice.exceptions";version="1.0.0",com.icfi.clientapp.servlet
- s.clientservice;uses:="com.icfi.clientapp.services.clientservice";versi
- on="1.0.0",com.icfi.clientapp.webservice.exceptions;version="1.0.0"
+ m.icfi.clientapp.components.content.clientsearchcomponent;version="1.0.
+ 0",com.icfi.clientapp.domain.client;version="1.0.0",com.icfi.clientapp.
+ services.clientservice;uses:="com.icfi.clientapp.domain.client,com.icfi
+ .clientapp.webservice.exceptions";version="1.0.0",com.icfi.clientapp.se
+ rvlets.clientservice;uses:="com.icfi.clientapp.services.clientservice";
+ version="1.0.0",com.icfi.clientapp.webservice.exceptions;version="1.0.0
+ "
 Provide-Capability: osgi.service;effective:=active;objectClass="com.icfi
  .clientapp.services.clientservice.ClientCacheService";cacheExpirationTi
  me=60;cacheConcurrencyLevel=150;cacheInitialCapacity=100;cacheMaxSize=1

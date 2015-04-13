@@ -1,0 +1,33 @@
+
+#searchSelect{
+
+    width: 300px;
+    height: 300px;;
+    border: 1px;
+    background-color: lightcyan;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+}
+
+#searchById{
+
+    display: none;
+}
+#searchByName{
+
+    display: none;
+}
+#searchByIndustry{
+
+    display: none;
+}
+#searchByAemVersion{
+
+    display: none;
+}
+#submitButton{
+
+    display: none;
+}
