@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1428951323798
+Bnd-LastModified: 1429194162735
 Build-Jdk: 1.7.0_75
 Built-By: 35243
 Bundle-Description: Bedrock provides a sturdy foundation for bootstrappi
@@ -14,13 +14,13 @@ Bundle-Version: 1.0.0.SNAPSHOT
 Created-By: Apache Maven Bundle Plugin
 DynamicImport-Package: *
 Export-Package: com.icfi.clientapp.components.content;version="1.0.0",co
- m.icfi.clientapp.components.content.clientsearchcomponent;version="1.0.
- 0",com.icfi.clientapp.domain.client;version="1.0.0",com.icfi.clientapp.
- services.clientservice;uses:="com.icfi.clientapp.domain.client,com.icfi
- .clientapp.webservice.exceptions";version="1.0.0",com.icfi.clientapp.se
- rvlets.clientservice;uses:="com.icfi.clientapp.services.clientservice";
- version="1.0.0",com.icfi.clientapp.webservice.exceptions;version="1.0.0
- "
+ m.icfi.clientapp.components.content.addclient;version="1.0.0",com.icfi.
+ clientapp.components.content.clientsearchcomponent;version="1.0.0",com.
+ icfi.clientapp.domain.client;version="1.0.0",com.icfi.clientapp.service
+ s.clientservice;uses:="com.icfi.clientapp.domain.client,com.icfi.client
+ app.webservice.exceptions";version="1.0.0",com.icfi.clientapp.servlets.
+ clientservice;uses:="com.icfi.clientapp.services.clientservice";version
+ ="1.0.0",com.icfi.clientapp.webservice.exceptions;version="1.0.0"
 Provide-Capability: osgi.service;effective:=active;objectClass="com.icfi
  .clientapp.services.clientservice.ClientCacheService";cacheExpirationTi
  me=60;cacheConcurrencyLevel=150;cacheInitialCapacity=100;cacheMaxSize=1
@@ -32,9 +32,10 @@ Require-Capability: osgi.service;effective:=active;filter:="(objectClass
  ",osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.5))"
 Service-Component: OSGI-INF/com.icfi.clientapp.services.clientservice.Cl
  ientCacheServiceImpl.xml,OSGI-INF/com.icfi.clientapp.servlets.clientser
- vice.ClientServiceServlet.xml,OSGI-INF/com.icfi.clientapp.services.clie
- ntservice.ClientTransformationServiceImpl.xml,OSGI-INF/com.icfi.clienta
- pp.services.clientservice.ClientServiceImpl.xml,OSGI-INF/com.icfi.clien
- tapp.services.clientservice.ClientConnectionServiceImpl.xml
+ vice.AddClientServlet.xml,OSGI-INF/com.icfi.clientapp.servlets.clientse
+ rvice.ClientServiceServlet.xml,OSGI-INF/com.icfi.clientapp.services.cli
+ entservice.ClientTransformationServiceImpl.xml,OSGI-INF/com.icfi.client
+ app.services.clientservice.ClientServiceImpl.xml,OSGI-INF/com.icfi.clie
+ ntapp.services.clientservice.ClientConnectionServiceImpl.xml
 Sling-Model-Packages: com.icfi.clientapp
 Tool: Bnd-2.3.0.201405100607

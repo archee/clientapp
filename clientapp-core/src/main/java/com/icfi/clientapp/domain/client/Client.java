@@ -22,6 +22,15 @@ public class Client {
         this.aemVersion = aemVersion;
     }
 
+    public Client(String name, String clientSince, String industry, String aemVersion) {
+
+        this.name = name;
+        this.clientSince = clientSince;
+        this.industry = industry;
+        this.aemVersion = aemVersion;
+    }
+
+
     public int getId() {
         return id;
     }

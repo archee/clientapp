@@ -18,6 +18,8 @@ public class ClientServiceImpl implements ClientService{
     @Reference
     ClientCacheService clientCacheServiceImpl;
 
+    @Reference
+    ClientConnectionService clientConnectionServiceImpl;
 
     @Override
     public Clients getAllClients() throws ClientsServiceException {
@@ -105,6 +107,11 @@ public class ClientServiceImpl implements ClientService{
 
         return  new Clients(clientList);
     }
+    @Override
+    public String addClient(Client client) throws ClientsServiceException{
 
+
+        return clientConnectionServiceImpl.addClient(client);
+    }
 
 }

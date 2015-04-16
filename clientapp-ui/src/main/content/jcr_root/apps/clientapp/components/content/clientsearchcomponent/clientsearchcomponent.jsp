@@ -47,6 +47,7 @@
         display: none;
     }
 
+
 </style>
 -->
 
@@ -75,7 +76,12 @@
     </div>
     <div id = "searchByIndustry">
         Enter Industry Type:
-        <input type="text" name = "industry"/></br></br>
+        <select id = "industry" name = "industry">
+        <option disabled selected >--Slect--</option>
+        <c:forEach var="industry" items="${searchcomponent.industryList}">
+            <option value = "${industry}">${industry}</option>
+        </c:forEach>
+        </select></br></br>
     </div>
     <div id = "searchByAemVersion">
         Enter Aem Version:
@@ -134,7 +140,7 @@
 
         });
 
-        $("#submit").click(function(){
+        $("#submitButton").click(function(){
 
             var form = $("#clientsForm");
             $.post( "/bin/clientapp/clients", form.serialize()).done(function(data) {

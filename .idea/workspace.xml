@@ -2,40 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="636db19d-7c40-4b86-a0f0-e39e0475897c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clientapp-ui/src/main/content/jcr_root/apps/clientapp/components/content/clientsearchcomponent/lib/.content.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clientapp-ui/src/main/content/jcr_root/apps/clientapp/components/page/home/.content.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clientapp-ui/src/main/content/jcr_root/apps/clientapp/templates/home/.content.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clientapp-ui/src/main/content/jcr_root/etc/clientlibs/.content.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clientapp-ui/src/main/content/jcr_root/etc/clientlibs/clientapp/.content.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clientapp-core/src/main/java/com/icfi/clientapp/components/content/clientsearchcomponent/ClientSearchComponent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clientapp-ui/src/main/content/jcr_root/apps/clientapp/components/content/clientsearchcomponent/lib/css/clientapp.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clientapp-ui/src/main/content/jcr_root/etc/clientlibs/clientapp/css/clientapp.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clientapp-ui/src/main/content/jcr_root/apps/clientapp/components/content/clientsearchcomponent/clientsearchcomponent.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clientapp-ui/src/main/content/jcr_root/apps/clientapp/components/page/home/content.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clientapp-ui/src/main/content/jcr_root/apps/clientapp/components/content/clientsearchcomponent/lib/css.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clientapp-ui/src/main/content/jcr_root/etc/clientlibs/clientapp/css.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clientapp-ui/src/main/content/jcr_root/apps/clientapp/components/page/global/footer.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clientapp-ui/src/main/content/jcr_root/apps/clientapp/components/page/global/head.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clientapp-ui/src/main/content/jcr_root/apps/clientapp/components/page/global/javascript.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clientapp-ui/src/main/content/jcr_root/apps/clientapp/components/page/home/left.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clientapp-ui/src/main/content/jcr_root/apps/clientapp/components/page/home/middle.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clientapp-ui/src/main/content/jcr_root/apps/clientapp/components/page/home/right.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientapp-core/target/classes/com/icfi/clientapp/services/clientservice/ClientCacheServiceImpl$1.class" afterPath="$PROJECT_DIR$/clientapp-core/target/classes/com/icfi/clientapp/services/clientservice/ClientCacheServiceImpl$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientapp-core/target/classes/com/icfi/clientapp/services/clientservice/ClientCacheServiceImpl.class" afterPath="$PROJECT_DIR$/clientapp-core/target/classes/com/icfi/clientapp/services/clientservice/ClientCacheServiceImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clientapp-core/src/main/java/com/icfi/clientapp/components/content/addclient/AddClient.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clientapp-core/src/main/java/com/icfi/clientapp/servlets/clientservice/AddClientServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clientapp-ui/src/main/content/jcr_root/apps/clientapp/components/content/addclient/addclient.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientapp-core/target/classes/com/icfi/clientapp/domain/client/Client.class" afterPath="$PROJECT_DIR$/clientapp-core/target/classes/com/icfi/clientapp/domain/client/Client.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientapp-core/target/classes/com/icfi/clientapp/services/clientservice/ClientConnectionService.class" afterPath="$PROJECT_DIR$/clientapp-core/target/classes/com/icfi/clientapp/services/clientservice/ClientConnectionService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientapp-core/target/classes/com/icfi/clientapp/services/clientservice/ClientConnectionServiceImpl.class" afterPath="$PROJECT_DIR$/clientapp-core/target/classes/com/icfi/clientapp/services/clientservice/ClientConnectionServiceImpl.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientapp-core/target/classes/com/icfi/clientapp/services/clientservice/ClientService.class" afterPath="$PROJECT_DIR$/clientapp-core/target/classes/com/icfi/clientapp/services/clientservice/ClientService.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientapp-core/target/classes/com/icfi/clientapp/services/clientservice/ClientServiceImpl.class" afterPath="$PROJECT_DIR$/clientapp-core/target/classes/com/icfi/clientapp/services/clientservice/ClientServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientapp-core/target/classes/com/icfi/clientapp/servlets/clientservice/ClientServiceServlet.class" afterPath="$PROJECT_DIR$/clientapp-core/target/classes/com/icfi/clientapp/servlets/clientservice/ClientServiceServlet.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientapp-core/target/clientapp-core-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/clientapp-core/target/clientapp-core-1.0-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientapp-ui/target/clientapp-ui-1.0-SNAPSHOT.zip" afterPath="$PROJECT_DIR$/clientapp-ui/target/clientapp-ui-1.0-SNAPSHOT.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientapp-ui/src/main/content/jcr_root/apps/clientapp/components/page/global/.content.xml" afterPath="$PROJECT_DIR$/clientapp-ui/src/main/content/jcr_root/apps/clientapp/components/page/global/.content.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientapp-ui/src/main/content/jcr_root/etc/designs/clientapp/.content.xml" afterPath="$PROJECT_DIR$/clientapp-ui/src/main/content/jcr_root/etc/designs/clientapp/.content.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientapp-core/src/main/java/com/icfi/clientapp/services/clientservice/ClientCacheServiceImpl.java" afterPath="$PROJECT_DIR$/clientapp-core/src/main/java/com/icfi/clientapp/services/clientservice/ClientCacheServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientapp-core/src/main/java/com/icfi/clientapp/domain/client/Client.java" afterPath="$PROJECT_DIR$/clientapp-core/src/main/java/com/icfi/clientapp/domain/client/Client.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientapp-core/src/main/java/com/icfi/clientapp/services/clientservice/ClientConnectionService.java" afterPath="$PROJECT_DIR$/clientapp-core/src/main/java/com/icfi/clientapp/services/clientservice/ClientConnectionService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientapp-core/src/main/java/com/icfi/clientapp/services/clientservice/ClientConnectionServiceImpl.java" afterPath="$PROJECT_DIR$/clientapp-core/src/main/java/com/icfi/clientapp/services/clientservice/ClientConnectionServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientapp-core/src/main/java/com/icfi/clientapp/components/content/clientsearchcomponent/ClientSearchComponent.java" afterPath="$PROJECT_DIR$/clientapp-core/src/main/java/com/icfi/clientapp/components/content/clientsearchcomponent/ClientSearchComponent.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientapp-core/src/main/java/com/icfi/clientapp/services/clientservice/ClientService.java" afterPath="$PROJECT_DIR$/clientapp-core/src/main/java/com/icfi/clientapp/services/clientservice/ClientService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientapp-core/src/main/java/com/icfi/clientapp/services/clientservice/ClientServiceImpl.java" afterPath="$PROJECT_DIR$/clientapp-core/src/main/java/com/icfi/clientapp/services/clientservice/ClientServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientapp-core/src/main/java/com/icfi/clientapp/servlets/clientservice/ClientServiceServlet.java" afterPath="$PROJECT_DIR$/clientapp-core/src/main/java/com/icfi/clientapp/servlets/clientservice/ClientServiceServlet.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientapp-core/target/classes/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/clientapp-core/target/classes/META-INF/MANIFEST.MF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientapp-ui/src/main/content/jcr_root/apps/clientapp/components/page/global/body.jsp" afterPath="$PROJECT_DIR$/clientapp-ui/src/main/content/jcr_root/apps/clientapp/components/page/global/body.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientapp-ui/src/main/content/jcr_root/apps/clientapp/components/content/clientsearchcomponent/clientsearchcomponent.jsp" afterPath="$PROJECT_DIR$/clientapp-ui/src/main/content/jcr_root/apps/clientapp/components/content/clientsearchcomponent/clientsearchcomponent.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientapp-core/target/classes/OSGI-INF/metatype/com.icfi.clientapp.services.clientservice.ClientCacheServiceImpl.properties" afterPath="$PROJECT_DIR$/clientapp-core/target/classes/OSGI-INF/metatype/com.icfi.clientapp.services.clientservice.ClientCacheServiceImpl.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientapp-core/target/classes/OSGI-INF/com.icfi.clientapp.services.clientservice.ClientServiceImpl.xml" afterPath="$PROJECT_DIR$/clientapp-core/target/classes/OSGI-INF/com.icfi.clientapp.services.clientservice.ClientServiceImpl.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientapp-core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/clientapp-core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientapp-core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/clientapp-core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -77,91 +63,63 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="head.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/clientapp-ui/src/main/content/jcr_root/apps/clientapp/components/page/global/head.jsp">
+      <file leaf-file-name="clientsearchcomponent.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/clientapp-ui/src/main/content/jcr_root/apps/clientapp/components/content/clientsearchcomponent/clientsearchcomponent.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5791583" vertical-offset="26" max-vertical-offset="525">
-              <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="2055" max-vertical-offset="2610">
+              <caret line="121" column="36" selection-start-line="121" selection-start-column="3" selection-end-line="121" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="clientapp.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clientapp-ui/src/main/content/jcr_root/etc/clientlibs/clientapp/css/clientapp.css">
+      <file leaf-file-name="addclient.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/clientapp-ui/src/main/content/jcr_root/apps/clientapp/components/content/addclient/addclient.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="47" max-vertical-offset="570">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state vertical-scroll-proportion="-12.666667" vertical-offset="431" max-vertical-offset="930">
+              <caret line="49" column="18" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".content.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clientapp-ui/src/main/content/jcr_root/etc/clientlibs/.content.xml">
+      <file leaf-file-name="AddClientServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/clientapp-core/src/main/java/com/icfi/clientapp/servlets/clientservice/AddClientServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="135">
-              <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="227" max-vertical-offset="795">
+              <caret line="36" column="85" selection-start-line="36" selection-start-column="85" selection-end-line="36" selection-end-column="85" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="global.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clientapp-ui/src/main/content/jcr_root/apps/clientapp/components/global.jsp">
+      <file leaf-file-name="ClientServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/clientapp-core/src/main/java/com/icfi/clientapp/services/clientservice/ClientServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1247" max-vertical-offset="1770">
+              <caret line="112" column="0" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="body.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clientapp-ui/src/main/content/jcr_root/apps/clientapp/components/page/global/body.jsp">
+      <file leaf-file-name="ClientConnectionServiceImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/clientapp-core/src/main/java/com/icfi/clientapp/services/clientservice/ClientConnectionServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="330">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="0.86734694" vertical-offset="1655" max-vertical-offset="2265">
+              <caret line="133" column="0" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="javascript.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clientapp-ui/src/main/content/jcr_root/apps/clientapp/components/page/global/javascript.jsp">
+      <file leaf-file-name="Client.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/clientapp-core/src/main/java/com/icfi/clientapp/domain/client/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="135">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="content.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clientapp-ui/src/main/content/jcr_root/apps/clientapp/components/page/home/content.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="345">
-              <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".content.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clientapp-ui/src/main/content/jcr_root/etc/clientlibs/clientapp/.content.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
-              <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="css.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clientapp-ui/src/main/content/jcr_root/etc/clientlibs/clientapp/css.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="105">
-              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="347" max-vertical-offset="885">
+              <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -176,31 +134,35 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/clientapp-core/src/main/java/com/icfi/clientapp/domain/client/Clients.java" />
-        <option value="$PROJECT_DIR$/clientapp-core/src/main/java/com/icfi/clientapp/services/clientservice/ClientConnectionServiceImpl.java" />
         <option value="$PROJECT_DIR$/clientapp-core/src/main/java/com/icfi/clientapp/ClientServiceServlet.java" />
-        <option value="$PROJECT_DIR$/clientapp-core/src/main/java/com/icfi/clientapp/domain/client/Client.java" />
         <option value="$PROJECT_DIR$/clientapp-core/src/main/java/com/icfi/clientapp/services/clientservice/ClientCacheServiceImpl.java" />
-        <option value="$PROJECT_DIR$/clientapp-core/src/main/java/com/icfi/clientapp/services/clientservice/ClientService.java" />
-        <option value="$PROJECT_DIR$/clientapp-core/src/main/java/com/icfi/clientapp/services/clientservice/ClientServiceImpl.java" />
         <option value="$PROJECT_DIR$/clientapp-ui/src/main/content/jcr_root/etc/designs/clientapp/css/clientapp.css" />
         <option value="$PROJECT_DIR$/clientapp-ui/src/main/content/jcr_root/etc/designs/clientapp/css/css.txt" />
         <option value="$PROJECT_DIR$/clientapp-ui/src/main/content/jcr_root/etc/clientlibs/css.txt" />
         <option value="$PROJECT_DIR$/clientapp-ui/src/main/content/jcr_root/etc/designs/clientapp/.content.xml" />
         <option value="$PROJECT_DIR$/clientapp-ui/src/main/content/jcr_root/etc/designs/clientapp/css/.content.xml" />
         <option value="$PROJECT_DIR$/clientapp-ui/src/main/content/jcr_root/etc/clientlibs/.content.xml" />
-        <option value="$PROJECT_DIR$/clientapp-core/src/main/java/com/icfi/clientapp/components/content/clientsearchcomponent/ClientSearchComponent.java" />
         <option value="$PROJECT_DIR$/clientapp-core/src/main/java/com/icfi/clientapp/servlets/clientservice/ClientServiceServlet.java" />
         <option value="$PROJECT_DIR$/clientapp-ui/src/main/content/jcr_root/apps/clientapp/components/content/clientsearchcomponent/lib/css.txt" />
         <option value="$PROJECT_DIR$/clientapp-ui/src/main/content/jcr_root/apps/clientapp/templates/home/.content.xml" />
         <option value="$PROJECT_DIR$/clientapp-ui/src/main/content/jcr_root/apps/clientapp/components/page/home/.content.xml" />
         <option value="$PROJECT_DIR$/clientapp-ui/src/main/content/jcr_root/etc/clientlibs/clientapp/css.txt" />
         <option value="$PROJECT_DIR$/clientapp-ui/src/main/content/jcr_root/apps/clientapp/components/content/clientsearchcomponent/lib/.content.xml" />
-        <option value="$PROJECT_DIR$/clientapp-ui/src/main/content/jcr_root/apps/clientapp/components/content/clientsearchcomponent/clientsearchcomponent.jsp" />
         <option value="$PROJECT_DIR$/clientapp-ui/src/main/content/jcr_root/apps/clientapp/components/page/global/body.jsp" />
         <option value="$PROJECT_DIR$/clientapp-ui/src/main/content/jcr_root/apps/clientapp/components/page/global/javascript.jsp" />
         <option value="$PROJECT_DIR$/clientapp-ui/src/main/content/jcr_root/etc/clientlibs/clientapp/css/.content.xml" />
         <option value="$PROJECT_DIR$/clientapp-ui/src/main/content/jcr_root/etc/clientlibs/clientapp/.content.xml" />
         <option value="$PROJECT_DIR$/clientapp-ui/src/main/content/jcr_root/apps/clientapp/components/page/global/head.jsp" />
+        <option value="$PROJECT_DIR$/clientapp-core/src/main/java/com/icfi/clientapp/components/content/clientsearchcomponent/ClientSearchComponent.java" />
+        <option value="$PROJECT_DIR$/clientapp-core/src/main/java/com/icfi/clientapp/components/content/addclient/AddClient.java" />
+        <option value="$PROJECT_DIR$/clientapp-ui/src/main/content/jcr_root/apps/clientapp/components/content/clientsearchcomponent/clientsearchcomponent.jsp" />
+        <option value="$PROJECT_DIR$/clientapp-core/src/main/java/com/icfi/clientapp/services/clientservice/ClientConnectionService.java" />
+        <option value="$PROJECT_DIR$/clientapp-core/src/main/java/com/icfi/clientapp/services/clientservice/ClientService.java" />
+        <option value="$PROJECT_DIR$/clientapp-core/src/main/java/com/icfi/clientapp/services/clientservice/ClientServiceImpl.java" />
+        <option value="$PROJECT_DIR$/clientapp-core/src/main/java/com/icfi/clientapp/domain/client/Client.java" />
+        <option value="$PROJECT_DIR$/clientapp-core/src/main/java/com/icfi/clientapp/servlets/clientservice/AddClientServlet.java" />
+        <option value="$PROJECT_DIR$/clientapp-ui/src/main/content/jcr_root/apps/clientapp/components/content/addclient/addclient.jsp" />
+        <option value="$PROJECT_DIR$/clientapp-core/src/main/java/com/icfi/clientapp/services/clientservice/ClientConnectionServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -272,9 +234,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Problems" />
-        <subPane subId="Project Files" />
+      <pane id="PackagesPane">
+        <subPane />
       </pane>
       <pane id="ProjectPane">
         <subPane>
@@ -680,7 +641,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="page" />
+              <option name="myItemId" value="content" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -726,11 +687,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="page" />
+              <option name="myItemId" value="content" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="home" />
+              <option name="myItemId" value="clientsearchcomponent" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -776,11 +737,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="page" />
+              <option name="myItemId" value="content" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="global" />
+              <option name="myItemId" value="addclient" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -890,10 +851,189 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clientapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clientapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clientapp-core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clientapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clientservice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clientapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clientapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clientapp-core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clientapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clientapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clientapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clientapp-core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clientapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clientapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clientapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clientapp-core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clientapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clientsearchcomponent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clientapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clientapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clientapp-core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clientapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="addclient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane />
+      <pane id="Scope">
+        <subPane subId="Problems" />
+        <subPane subId="Project Files" />
       </pane>
     </panes>
   </component>
@@ -921,7 +1061,7 @@
       <recent name="$PROJECT_DIR$/clientapp-ui/src/main/content/jcr_root/etc/clientlibs/clientapp" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.Unnamed">
+  <component name="RunManager" selected="Remote.author debug">
     <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
       <module name="" />
       <setting name="vmparams" value="" />
@@ -1212,11 +1352,28 @@
         <option name="TRANSPORT" value="0" />
         <option name="LOCAL" value="true" />
       </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="author debug" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="30303" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="30303" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
       <ConfigurationWrapper RunnerId="Debug" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Maven.Unnamed" />
+      <item index="1" class="java.lang.String" itemvalue="Remote.author debug" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -1360,11 +1517,43 @@
       <workItem from="1428950570883" duration="311000" />
       <workItem from="1428951016134" duration="140000" />
       <workItem from="1428951215588" duration="222000" />
+      <workItem from="1428951448737" duration="250000" />
+      <workItem from="1428951718836" duration="960000" />
+      <workItem from="1429019196475" duration="133000" />
+      <workItem from="1429019373217" duration="360000" />
+      <workItem from="1429019748656" duration="7785000" />
+      <workItem from="1429029906516" duration="952000" />
+      <workItem from="1429033779835" duration="5648000" />
+      <workItem from="1429040497319" duration="310000" />
+      <workItem from="1429041711380" duration="1205000" />
+      <workItem from="1429043314078" duration="255000" />
+      <workItem from="1429044061259" duration="1302000" />
+      <workItem from="1429052651940" duration="108000" />
+      <workItem from="1429104983332" duration="2051000" />
+      <workItem from="1429109982721" duration="110000" />
+      <workItem from="1429111262378" duration="3258000" />
+      <workItem from="1429119777512" duration="41000" />
+      <workItem from="1429119822022" duration="418000" />
+      <workItem from="1429120305288" duration="655000" />
+      <workItem from="1429121104476" duration="368000" />
+      <workItem from="1429121714374" duration="94000" />
+      <workItem from="1429121918271" duration="39000" />
+      <workItem from="1429121984387" duration="333000" />
+      <workItem from="1429122338450" duration="2573000" />
+      <workItem from="1429126026789" duration="953000" />
+      <workItem from="1429145456234" duration="1302000" />
+      <workItem from="1429146989482" duration="126000" />
+      <workItem from="1429147206296" duration="39000" />
+      <workItem from="1429180405006" duration="836000" />
+      <workItem from="1429181980870" duration="359000" />
+      <workItem from="1429184304587" duration="879000" />
+      <workItem from="1429190239664" duration="944000" />
+      <workItem from="1429192094170" duration="1227000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99155000" />
+    <option name="totallyTimeSpent" value="135028000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="790" extended-state="6" />
@@ -1374,10 +1563,11 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295129" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21285714" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21285714" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297568" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964234" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20886981" sideWeight="0.5009074" order="3" side_tool="true" content_ui="tabs" />
@@ -1385,17 +1575,16 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32857144" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.490701" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19027181" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20886981" sideWeight="0.49909255" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" x="100" y="122" width="1240" height="590" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" x="100" y="122" width="1240" height="590" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1421,7 +1610,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/clientapp-core/src/main/java/com/icfi/clientapp/services/clientservice/ClientConnectionServiceImpl.java</url>
+          <line>116</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1430,36 +1627,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/clientapp-ui/src/main/content/jcr_root/etc/clientlibs/clientapp/.content.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="165">
-          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clientapp-ui/src/main/content/jcr_root/etc/clientlibs/clientapp/css.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clientapp-core/src/main/java/com/icfi/clientapp/services/clientservice/ClientServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="495">
-          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clientapp-core/src/main/java/com/icfi/clientapp/services/clientservice/ClientCacheServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1200">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/clientapp-core/src/main/java/com/icfi/clientapp/services/clientservice/ClientCacheService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
@@ -1474,27 +1641,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clientapp-core/src/main/java/com/icfi/clientapp/services/clientservice/ClientConnectionService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clientapp-core/src/main/java/com/icfi/clientapp/services/clientservice/ClientTransformationService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23809524" vertical-offset="0" max-vertical-offset="441">
-          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clientapp-core/src/main/java/com/icfi/clientapp/services/clientservice/ClientTransformationServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="780">
-          <caret line="46" column="49" selection-start-line="46" selection-start-column="49" selection-end-line="46" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/clientapp-core/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2940">
@@ -1502,38 +1648,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clientapp-core/src/main/java/com/icfi/clientapp/domain/client/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="750">
-          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clientapp-core/src/main/java/com/icfi/clientapp/services/clientservice/ClientCacheServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6606335" vertical-offset="1073" max-vertical-offset="1515">
-          <caret line="94" column="0" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clientapp-core/src/main/java/com/icfi/clientapp/services/clientservice/ClientService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="8" max-vertical-offset="450">
-          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.458891" vertical-offset="1335" max-vertical-offset="1905">
           <caret line="73" column="37" selection-start-line="73" selection-start-column="34" selection-end-line="73" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clientapp-core/src/main/java/com/icfi/clientapp/services/clientservice/ClientConnectionServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="527" max-vertical-offset="1050">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -1565,38 +1683,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clientapp-core/src/main/java/com/icfi/clientapp/components/content/clientsearchcomponent/ClientSearchComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="497" max-vertical-offset="1020">
-          <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/clientapp-core/src/main/java/com/icfi/clientapp/domain/client/Clients.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clientapp-core/src/main/java/com/icfi/clientapp/servlets/clientservice/ClientServiceServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="840" max-vertical-offset="2100">
-          <caret line="88" column="61" selection-start-line="88" selection-start-column="61" selection-end-line="88" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clientapp-ui/src/main/content/jcr_root/apps/clientapp/components/content/clientsearchcomponent/lib/css/clientapp.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clientapp-core/src/main/java/com/icfi/clientapp/services/clientservice/ClientServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="855" max-vertical-offset="1665">
-          <caret line="77" column="73" selection-start-line="77" selection-start-column="8" selection-end-line="77" selection-end-column="73" />
         </state>
       </provider>
     </entry>
@@ -1625,7 +1715,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="523">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1633,7 +1722,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
           <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1641,7 +1729,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="523">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1649,20 +1736,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clientapp-ui/src/main/content/jcr_root/apps/clientapp/components/content/clientsearchcomponent/lib/.content.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
-          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clientapp-ui/src/main/content/jcr_root/apps/clientapp/components/content/clientsearchcomponent/clientsearchcomponent.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1856" max-vertical-offset="2520">
-          <caret line="160" column="2" selection-start-line="160" selection-start-column="2" selection-end-line="160" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -1698,7 +1771,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1706,7 +1778,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="523">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1714,7 +1785,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="523">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1722,7 +1792,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="523">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1737,7 +1806,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="330">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1745,7 +1813,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="345">
           <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1753,23 +1820,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="135">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clientapp-ui/src/main/content/jcr_root/apps/clientapp/components/global.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="499">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clientapp-ui/src/main/content/jcr_root/etc/clientlibs/clientapp/css/clientapp.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1777,15 +1827,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
           <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clientapp-ui/src/main/content/jcr_root/etc/clientlibs/.content.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
-          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1793,15 +1834,162 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
           <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/clientapp-ui/src/main/content/jcr_root/apps/clientapp/components/page/global/head.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5791583" vertical-offset="26" max-vertical-offset="525">
+        <state vertical-scroll-proportion="-12.041667" vertical-offset="26" max-vertical-offset="525">
           <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clientapp-ui/src/main/content/jcr_root/apps/clientapp/components/global.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="499">
+          <caret line="0" column="27" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clientapp-ui/src/main/content/jcr_root/etc/clientlibs/.content.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08604206" vertical-offset="0" max-vertical-offset="523">
+          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clientapp-ui/src/main/content/jcr_root/etc/clientlibs/clientapp/css/clientapp.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clientapp-ui/src/main/content/jcr_root/apps/clientapp/components/content/clientsearchcomponent/lib/css/clientapp.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clientapp-ui/src/main/content/jcr_root/apps/clientapp/components/content/clientsearchcomponent/lib/.content.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clientapp-core/src/main/java/com/icfi/clientapp/components/content/addclient/AddClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clientapp-core/src/main/java/com/icfi/clientapp/components/content/clientsearchcomponent/ClientSearchComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="257" max-vertical-offset="1080">
+          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clientapp-core/src/main/java/com/icfi/clientapp/services/clientservice/ClientCacheServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7131931" vertical-offset="767" max-vertical-offset="1290">
+          <caret line="94" column="0" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clientapp-ui/src/main/content/jcr_root/apps/clientapp/components/content/clientsearchcomponent/clientsearchcomponent.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2055" max-vertical-offset="2610">
+          <caret line="121" column="36" selection-start-line="121" selection-start-column="3" selection-end-line="121" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clientapp-core/src/main/java/com/icfi/clientapp/services/clientservice/ClientService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clientapp-core/src/main/java/com/icfi/clientapp/services/clientservice/ClientTransformationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clientapp-core/src/main/java/com/icfi/clientapp/servlets/clientservice/ClientServiceServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="2100">
+          <caret line="92" column="53" selection-start-line="91" selection-start-column="16" selection-end-line="92" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clientapp-core/src/main/java/com/icfi/clientapp/services/clientservice/ClientConnectionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28680688" vertical-offset="0" max-vertical-offset="523">
+          <caret line="11" column="58" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clientapp-core/src/main/java/com/icfi/clientapp/services/clientservice/ClientTransformationServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.97514343" vertical-offset="0" max-vertical-offset="780">
+          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clientapp-core/clientapp-core.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2295">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clientapp-core/src/main/java/com/icfi/clientapp/servlets/clientservice/AddClientServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="362" max-vertical-offset="975">
+          <caret line="36" column="85" selection-start-line="36" selection-start-column="85" selection-end-line="36" selection-end-column="85" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clientapp-core/src/main/java/com/icfi/clientapp/services/clientservice/ClientServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1247" max-vertical-offset="1770">
+          <caret line="112" column="0" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clientapp-ui/src/main/content/jcr_root/apps/clientapp/components/content/addclient/addclient.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.666667" vertical-offset="431" max-vertical-offset="930">
+          <caret line="49" column="18" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clientapp-core/src/main/java/com/icfi/clientapp/domain/client/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="885">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clientapp-core/src/main/java/com/icfi/clientapp/services/clientservice/ClientConnectionServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.86734694" vertical-offset="1655" max-vertical-offset="2265">
+          <caret line="133" column="0" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

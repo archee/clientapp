@@ -1,6 +1,7 @@
 package com.icfi.clientapp.services.clientservice;
 
 
+import com.icfi.clientapp.domain.client.Client;
 import com.icfi.clientapp.webservice.exceptions.ClientsServiceException;
 
 /**
@@ -9,4 +10,6 @@ import com.icfi.clientapp.webservice.exceptions.ClientsServiceException;
 public interface ClientConnectionService {
 
     String getAllClients() throws ClientsServiceException;
+
+    String addClient(Client client) throws ClientsServiceException;
 }

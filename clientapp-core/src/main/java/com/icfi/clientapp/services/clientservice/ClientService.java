@@ -11,6 +11,7 @@ import java.util.ArrayList;
  */
 public interface ClientService {
 
+    //Get Clients
     Clients getAllClients() throws ClientsServiceException;
 
     Client getClientById(int id) throws ClientsServiceException;
@@ -23,6 +24,7 @@ public interface ClientService {
 
     Clients getClientsByAemVersion(String aemVersion) throws ClientsServiceException;
 
-
+    //Add client
+    String addClient(Client client)throws ClientsServiceException;
 
 }

@@ -14,10 +14,7 @@ import com.icfi.clientapp.services.clientservice.ClientServiceImpl;
 import com.icfi.clientapp.webservice.exceptions.ClientsServiceException;
 import org.apache.felix.scr.annotations.Reference;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 /**
  * Created by 35243 on 4/6/15.
@@ -39,41 +36,45 @@ public class ClientSearchComponent extends AbstractComponent{
     private String searchBy;
 
 
-    private ClientServiceImpl csi = new ClientServiceImpl();
+    private ClientService csi;
 
     Clients clients;
 
+    SortedSet<String> versionList = new TreeSet<String>();
+    public Set<String> getVersion(){return versionList;}
 
-    public ArrayList<String> getVersion(){return list;}
-   // public ArrayList<String> getVersion(){return getAemVersionList();}
 
-    ArrayList<String> list = new ArrayList<String>();
+    SortedSet<String> industryList = new TreeSet<String>();
+   public Set<String> getIndustryList(){return industryList;}
+
 
     @Override
     public void init(ComponentRequest request) {
 
+        csi = getService(ClientService.class);
+
+        try {
+            clients = csi.getAllClients();
+        } catch (ClientsServiceException e) {
+            e.printStackTrace();
+        }
+
+        for(Client c : clients.getClientList()){
+
+            industryList.add(c.getIndustry());
+            versionList.add(c.getAemVersion());
+
+        }
+
+
         searchBy = get("searchBy", "All");
-        list = getAemVersionList();
 
 
-    }
-
-    public String getString(){
-
-        return "5.6";
 
     }
 
-    public ArrayList<String> getAemVersionList(){
-
-        ArrayList<String> list = new ArrayList<String>();
 
 
-        list.add("5.5");
-        list.add("5.6.1");
-        list.add("6.0");
 
-        return list;
-    }
 
 }
